@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include <stdbool.h>
 /**
  * binary_tree_is_leaf - function that checks if a node is a leaf
  * @node: is a pointer ,to the node to check
@@ -12,4 +13,5 @@ binary_tree_is_leaf(const binary_tree_t *node)
 		return (1);
 	if (node == NULL)
 		return (0);
+	return (0);
 }
